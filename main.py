@@ -14,8 +14,7 @@ orders={
     "A003":"Processing",
     "A004":"Cancelled",
     "A005":"Out for delivery",
-    "A006":"Shipped",
-    "A007":"Processing"
+    "A006":"Shipped"
 }
 
 
