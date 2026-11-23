@@ -62,7 +62,7 @@ config=types.GenerateContentConfig(
 
 response=client.models.generate_content(
     model="gemini-3.5-flash-lite",
-    contents="What's the status of order A008?",
+    contents="What's the status of order A002?",
     config=config
 )
 
@@ -90,7 +90,7 @@ final_response=client.models.generate_content(
     contents=[
         types.Content(
             role="user",
-            parts=[types.Part.from_text(text="What's the status of order A008?")
+            parts=[types.Part.from_text(text="What's the status of order A002?")
                    ]
         ),
         
